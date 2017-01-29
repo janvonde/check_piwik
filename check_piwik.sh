@@ -9,13 +9,13 @@
 #
 # Usage: ./check_piwik.sh -u http://example.net/piwik/ -t MYTOKEN
 #
-# 
+#
 # For more information visit https://github.com/janvonde/check_piwik
 #####
 
 
 
-USAGE="Usage: check_piwik -u [URL] -t [TOKEN]"
+USAGE="Usage: check_piwik.sh -u [URL] -t [TOKEN]"
 
 if [ $# -gt 2 ]; then
 	while getopts "hu:t:"  OPCOES; do
@@ -23,7 +23,7 @@ if [ $# -gt 2 ]; then
 			h ) echo $USAGE exit 1;;
 			u ) PIWIKURL=$OPTARG;;
 			t ) TOKEN=$OPTARG;;
-			? ) echo $USAGE 
+			? ) echo $USAGE
 			     exit 1;;
 			* ) echo $USAGE
 			     exit 1;;
@@ -56,7 +56,7 @@ fi
 if [ "$LATESTVERSION" != "$LOCALVERSION" ]; then
   echo "A new version is available: $LOCALVERSION -> $LATESTVERSION"
   exit 2
-else 
+else
   echo "Your current version $LOCALVERSION is up to date"
 fi
 
