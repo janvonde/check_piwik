@@ -1,6 +1,6 @@
 # check_piwik
 
-This is a monitoring plugin for [icinga](https://www.icinga.com) to check, if the [Piwik](jttps://piwik.org) version of the given URL is up to date.
+This is a monitoring plugin for [icinga](https://www.icinga.com) to check, if the [Piwik](https://piwik.org) version of the given URL is up to date.
 
 
 ### Requirements
