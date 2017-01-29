@@ -16,3 +16,12 @@ releases:
         url: "file:///check_piwik.sh"
         description: "initial release"
         checksum: 2aa07ca0d9e18e522953fbd560e49fa3
+  - 
+    name: 1.1
+    description: "1.1 Release"
+    files: 
+      - 
+        name: check_piwik.sh
+        url: "file:///check_piwik.sh"
+        description: "fixes USAGE information"
+        checksum: 301a54c074e5e419517a64df23232c67
