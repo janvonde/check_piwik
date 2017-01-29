@@ -1,0 +1,18 @@
+name: check_piwik
+description: "file:///README.md"
+url: "https://github.com/janvonde/check_piwik"
+tags: piwik
+vendor: Linux
+target: Website
+type: Plugin
+license: gplv3
+releases: 
+  - 
+    name: 1.0
+    description: "1.0 Release"
+    files: 
+      - 
+        name: check_piwik.sh
+        url: "file:///check_piwik.sh"
+        description: "initial release"
+        checksum: 2aa07ca0d9e18e522953fbd560e49fa3
