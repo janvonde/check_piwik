@@ -34,6 +34,12 @@ object CheckCommand "piwik" {
 ```
 
 
+### Changelog
+* 2017-03-09: adds perfdata
+* 2017-01-29: fixes USAGE information
+* 2017-01-29: initial version
+
+
 ### License
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

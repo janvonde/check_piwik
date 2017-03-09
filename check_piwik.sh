@@ -54,9 +54,9 @@ if [ "$LOCALVERSION" == "" ]; then
 fi
 
 if [ "$LATESTVERSION" != "$LOCALVERSION" ]; then
-  echo "A new version is available: $LOCALVERSION -> $LATESTVERSION"
+  echo "New version available: $LOCALVERSION -> $LATESTVERSION \n Please update at ${PIWIKURL} | update=1"
   exit 2
 else
-  echo "Your current version $LOCALVERSION is up to date"
+  echo "Current version $LOCALVERSION is up to date | update=0"
 fi
 
